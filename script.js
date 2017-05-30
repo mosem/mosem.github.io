@@ -59,12 +59,12 @@ function init() {
 
     textStyle = new PIXI.TextStyle({
         fontFamily: 'CaslonCP',
-        fontSize: 60,
+        fontSize: 40,
         fontWeight: 'bold',
         fill: '#ffffff',
         dropShadowDistance: 6,
         wordWrap: true,
-        wordWrapWidth: 600
+        wordWrapWidth: 500
     });
 
     ticker = new PIXI.ticker.Ticker();
